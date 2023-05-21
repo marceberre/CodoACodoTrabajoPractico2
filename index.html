@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="codoacodo, código, aprender"/>
+    <meta name="author" content="Marcelo Berretta" />
+    <meta name="copyright" content="Marcelo Berretta" />
+
+    <!-- Icono de la página web  -->
+    <link rel="shortcut icon" href="./images/codoacodo.ico" type="image/x-icon">
+
+    <!-- Libreria CSS para animar texto  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Librería CSS para animar imágenes  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Mis estilos  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Conf Bs As</title>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO  -->
+    <div class="encabezado">
+        <div class="empresa">
+            <div class="logo">
+                <img src="./images/codoacodo.png" alt="">
+            </div>
+            <div class="razon-social">
+                <p>Conf Bs As</p>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a class="primero" href="#">La conferencia</a></li>
+                <li><a href="#orad">Los oradores</a></li>
+                <li><a href="#lug">El Lugar y la fecha</a></li>
+                <li><a href="#convi">Conviértete en orador</a></li>
+                <li><a class="quinto" href="./tickets.html">Comprar tickets</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- FOTO BUENOS AIRES CON TITULO Y TEXTO  -->
+    <div class="foto-ppal">
+        <img src="./images/hawaii.jpg" alt="Conf Ba As">
+        <p class="foto-ppal-titulo animate__animated animate__slideInLeft">Conf Ba As</p>
+        <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad del conocimiento y
+            experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a
+            otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+        <div class="botones">
+            <button class="btn-1">Quiero ser orador</button>
+            <button class="btn-2">Comprar tickets</button>
+        </div>
+    </div>
+
+    <!-- CONOCE A LOS ORADORES  -->
+    <div class="oradores" id="orad">
+        <P class="p-orad1">Conoce a los</P>
+        <p class="p-orad2">Oradores</p>
+        <div class="tarjetas">
+            <div class="tarjeta" data-aos="fade-up">
+                <img src="./images/steve.jpg" alt="Steve Jobs">
+                <span class="js">JavaScript</span> <span class="re">React</span>
+                <p class="tarjeta-titulo">Steve Jobs</p>
+                <p class="tarjeta-parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Nostrum vitae ducimus debitis quae! Quidem ducimus, aspernatur natus et dolorem
+                    beatae exercitationem veritatis repudiandae optio itaque velit, minus saepe
+                    recusandae. Dolores fugiat at numquam ea consequuntur ratione illo? Quidem,
+                    repudiandae.</p>
+            </div>
+            <div class="tarjeta" data-aos="fade-up">
+                <img src="./images/bill.jpg" alt="Bill Gates">
+                <span class="js">JavaScript</span> <span class="re">React</span>
+                <p class="tarjeta-titulo">Bill Gates</p>
+                <p class="tarjeta-parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Nostrum vitae ducimus debitis quae! Quidem ducimus, aspernatur natus et dolorem
+                    beatae exercitationem veritatis repudiandae optio itaque velit, minus saepe
+                    recusandae. Dolores fugiat at numquam ea consequuntur ratione illo? Quidem,
+                    repudiandae.</p>
+            </div>
+            <div class="tarjeta" data-aos="fade-up">
+                <img src="./images/ada.jpeg" alt="Ada Lovelace">
+                <span class="ng">Negocios</span> <span class="su">Startups</span>
+                <p class="tarjeta-titulo">Ada Lovelace</p>
+                <p class="tarjeta-parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Nostrum vitae ducimus debitis quae! Quidem ducimus, aspernatur natus et dolorem
+                    beatae exercitationem veritatis repudiandae optio itaque velit, minus saepe
+                    recusandae. Dolores fugiat at numquam ea consequuntur ratione illo? Quidem,
+                    repudiandae.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PLAYA DE HONOLULU  -->
+    <div class="honolulu" id="lug">
+        <div class="foto">
+            <img src="./images/honolulu.jpg" alt="Playa de Honolulu">
+        </div>
+        <div class="cuadro">
+            <p>Bs As - Octubre</p>
+            <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
+                Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
+                Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de
+                Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600
+                km<sup>2</sup> de superficie).</p>
+            <button>Conoce más</button>
+        </div>
+    </div>
+
+    <!-- FORMULARIO DE INSCRIPCION  -->
+    <div class="inscripcion" id="convi">
+        <P class="p-orad1">CONVIÉRTETE EN UN</P>
+        <p class="p-orad2">ORADOR</p>
+        <p>Anótate como orador para dar una <span>charla ignite</span>. Cuéntanos, de qué quieres hablar!</p>
+        <div class="frm">
+            <form action="">
+                <div class="inp">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Apellido">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Sobre qué quieres hablar?"></textarea>
+                <small>Recuerda incluir un título para tu charla</small>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+    <!-- Pie de página  -->
+    <div class="pie">
+        <div class="elem-pie"><a href="#">Preguntas<br>frecuentes</a></div>
+        <div class="elem-pie"><a href="#">Contáctanos</a></div>
+        <div class="elem-pie"><a href="#">Prensa</a></div>
+        <div class="elem-pie"><a href="#">Conferencias</a></div>
+        <div class="elem-pie"><a href="#">Términos y<br>condiciones</a></div>
+        <div class="elem-pie"><a href="#">Privacidad</a></div>
+        <div class="elem-pie"><a href="#">Estudiantes</a></div>
+    </div>
+
+
+
+
+
+    <!-- Librería JS para animar imágenes  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Inicialización del AOS  -->
+    <script>AOS.init(); </script>
+
+</body>
+
+</html>
